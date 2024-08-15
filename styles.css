@@ -1,0 +1,120 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Font pixelated */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Krem */
+    color: #3e2723; /* Coklat tua */
+}
+header {
+    background-color: #6d4c41; /* Coklat sedang */
+    color: #f5f5dc; /* Krem */
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 5px solid #3e2723; /* Garis bawah coklat tua */
+}
+nav {
+    background-color: #6d4c41; /* Coklat sedang */
+    color: #f5f5dc; /* Krem */
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f5f5dc; /* Krem */
+    text-align: center;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    background-color: #8d6e63; /* Coklat muda */
+}
+nav .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav .menu {
+    float: right;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} 
+footer {
+    background-color: #6d4c41; /* Mengatur warna latar belakang footer menjadi coklat */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Mengurangi padding di dalam footer */
+    font-size: 14px; /* Mengurangi ukuran teks */
+}
+
+footer p {
+    margin: 5px 0; /* Mengurangi margin pada paragraf di footer */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Mengurangi jarak antara elemen-elemen di dalam footer */
+}
+.main-content {
+    padding: 2rem;
+}
+.article {
+    background-color: #fff8e1; /* Krem sangat muda */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #3e2723; /* Border coklat tua */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(62, 39, 35, 0.5); /* Efek cahaya coklat tua */
+}
+.article h2 {
+    color: #3e2723; /* Coklat tua */
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    nav .menu {
+        float: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.social-media a img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}

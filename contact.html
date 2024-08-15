@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Riza x Muichiro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Riza x Muichiro
+    </header>
+    <nav>
+        <a href="index.html" class="logo">Logo</a>
+        <div class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="main-content">
+            <div class="article">
+                <h2>Kontak Kami</h2>
+                <p>Untuk pertanyaan atau saran, jangan ragu untuk menghubungi kami melalui formulir di bawah ini atau melalui informasi kontak yang tertera.</p>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Nama:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Pesan:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <input type="submit" value="Kirim">
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Riza x Muichiro. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
